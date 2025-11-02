@@ -51,10 +51,40 @@ sum-app/
   - Hiển thị thông báo lỗi
 
 
-### 4. Chạy chương trình
+## Deployment
+
+### Local Development
 ```bash
+# Cài đặt dependencies
+npm install
+
+# Chạy ứng dụng ở môi trường development
 npm start
 ```
+
+### Deploy to GitHub Pages
+```bash
+# Build và deploy lên GitHub Pages
+npm run deploy
+```
+
+Live Demo: [Sum Calculator App](https://nguyensontung16.github.io/React-calculator)
+
+## Quy trình Deploy
+
+1. Push code lên GitHub repository:
+```bash
+git add .
+git commit -m "Your commit message"
+git push origin master
+```
+
+2. Deploy lên GitHub Pages:
+```bash
+npm run deploy
+```
+
+3. Truy cập website tại: https://nguyensontung16.github.io/React-calculator
 
 
 
